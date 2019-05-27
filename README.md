@@ -6,11 +6,9 @@ Repository Contents:
 - Pandas Folder - contains scripts related to using the Data Visualization capabilities built-into the Pandas library
 - Plotly Folder - contains scripts related to using Python with Plotly for Geoplotting and Choropleth Maps
 
-Packages/Libraries Required:
+Installed Packages/Libraries Required:
 - Pandas
 - Numpy
 - Seaborn
 - Matplotlib
 - Plotly
-- Cufflinks
-
