@@ -4,6 +4,6 @@ Repository to house practice scripts and projects that utilize the Pandas, Numpy
 These files are intended to be used as reference material for creating new data visualizations.
 
 Repository Contents:
-- Seaborn Folder - contains reference scripts for plotting with the Seaborn library
-- Pandas Folder - contains reference scripts for Data Visualization capabilities built-into the Pandas library
+- Seaborn Folder - contains reference scripts for data visualization with the Seaborn library
+- Pandas Folder - contains reference scripts for data visualization built-into the Pandas library
 - Plotly Folder - contains reference scripts for using Python with Plotly for Geoplotting and Choropleth Maps
