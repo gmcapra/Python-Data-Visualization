@@ -11,11 +11,11 @@ The data that will be used is loaded from Seaborn's publicly available data.
 In this script we will be using the 'tips' and 'flights' data sets.
 
 tips - contains data related to restaurant bills, the associated tip, party size,
-paying customer's sex, their status as a smoker, the day, and time.
+paying customer's gender, their status as a smoker, the day, and time.
 
 flights - contains year, month, and number of passengers data.
 
-The examples contained in this script will demonstrate use of:
+The examples demonstrate use of:
 - Matrix Plots
 
 Types of matrix plots we will plot with Seaborn are:
@@ -48,9 +48,9 @@ print('\n')
 
 """
 --------------------------------------------------------------------------------------------------------------------------------
-Heatmaps - show matrix representation of data correlation
-		 - to work properly, data should be in matrix form prior to seaborn plotting
-		 - the corr() method can be useful here, as it returns the matrix form for correlation data
+Heatmaps - show matrix representation of correlation between data points
+	 - to work properly, data should be in matrix form prior to seaborn plotting
+	 - the corr() method can be useful here, as it returns the matrix form for correlation data
 --------------------------------------------------------------------------------------------------------------------------------
 """
 #get the matrix data using tips_data.corr()
@@ -97,8 +97,8 @@ print('\n')
 Clustermaps - use clustering to produce a grouped version of the heatmap
 --------------------------------------------------------------------------------------------------------------------------------
 """
-#call the clustermap function on the flights matrix data
-#now, we can actually see similar months being grouped together
+#call the clustermap on the flights data
+#now, we can see similar months being grouped together
 print('Showing Clustermap of Flights Data...')
 sns.clustermap(flights_matrix_data, cmap='coolwarm',standard_scale=1)
 plt.title('Flights Data Clustermap')
