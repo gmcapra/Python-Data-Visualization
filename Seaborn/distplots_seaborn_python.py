@@ -7,9 +7,9 @@ Created: April 2019
 This script will demonstrate the use of the Seaborn, Matplotlib, and Numpy
 libraries to load, manipulate, and visualize data with Python.
 
-The data that will be used is loaded from Seaborn's publicly available data.
+The data is loaded from Seaborn's publicly available data.
 It contains data related to restaurant bills, the associated tip, party size,
-paying customer's sex, their status as a smoker, the day, and time.
+paying customer's gender, their status as a smoker, the day, and time.
 
 The examples contained in this script will demonstrate use of:
 - Distribution Plots
